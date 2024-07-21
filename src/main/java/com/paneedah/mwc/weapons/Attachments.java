@@ -14443,6 +14443,9 @@ public class Attachments {
         		.withCategory(AttachmentCategory.SILENCER)
                 .withCreativeTab(MWC.ATTACHMENTS_TAB)
                 .withModel(new com.paneedah.mwc.models.Suppressor556x45(), "gun.png")
+                .withApply((a, i) -> {
+                    i.setRecoil(i.getWeapon().getRecoil() * 0.8f);
+                })
                 .withModernRecipe(
                     	CraftingGroup.ATTACHMENT_NORMAL,
                     	new CraftingEntry(MWCItems.gunmetalIngot, 2),
@@ -14483,6 +14486,9 @@ public class Attachments {
         Silencer545x39 = new AttachmentBuilder<Weapon>().withCategory(AttachmentCategory.SILENCER)
                 .withCreativeTab(MWC.ATTACHMENTS_TAB)
                 .withModel(new com.paneedah.mwc.models.Suppressor556x39(), "gun.png")
+                .withApply((a, i) -> {
+                    i.setRecoil(i.getWeapon().getRecoil() * 0.8f);
+                })
                 .withModernRecipe(
                     	CraftingGroup.ATTACHMENT_NORMAL,
                     	new CraftingEntry(MWCItems.gunmetalIngot, 2),
@@ -14523,6 +14529,9 @@ public class Attachments {
         Silencer762x39 = new AttachmentBuilder<Weapon>().withCategory(AttachmentCategory.SILENCER)
                 .withCreativeTab(MWC.ATTACHMENTS_TAB)
                 .withModel(new com.paneedah.mwc.models.Suppressor762x39(), "gun.png")
+                .withApply((a, i) -> {
+                    i.setRecoil(i.getWeapon().getRecoil() * 0.8f);
+                })
                 .withModernRecipe(
                     	CraftingGroup.ATTACHMENT_NORMAL,
                     	new CraftingEntry(MWCItems.gunmetalIngot, 2),
@@ -15447,6 +15456,9 @@ public class Attachments {
                 		Glock19RazorbackBody, P226Slide, APC9Placeholder, MP443Slide, MP5NavyHandGuard, 
                 		MP5A5HandGuard, MP5SDHandGuard, MIMP5MHandGuard, UTGTriRailHandGuard, MP5BMHandguard, SCCYCPX2Body, SCCYCPX2BodyTan)
                 .withModel(new com.paneedah.mwc.models.Suppressor(), "GunmetalTexture.png")
+                .withApply((a, i) -> {
+                    i.setRecoil(i.getWeapon().getRecoil() * 0.7f);
+                })
                 .withModernRecipe(
                     	CraftingGroup.ATTACHMENT_NORMAL,
                     	new CraftingEntry(MWCItems.gunmetalIngot, 2),
@@ -15489,6 +15501,9 @@ public class Attachments {
                 .withCreativeTab(MWC.ATTACHMENTS_TAB)
                 .withRequiredAttachments(SamuraiEdgeMount)
                 .withModel(new com.paneedah.mwc.models.SamuraiEdgeSuppressor(), "samuraiedge.png")
+                .withApply((a, i) -> {
+                    i.setRecoil(i.getWeapon().getRecoil() * 0.8f);
+                })
                 .withModernRecipe(
                     	CraftingGroup.ATTACHMENT_NORMAL,
                     	new CraftingEntry(MWCItems.gunmetalIngot, 2),
@@ -15530,6 +15545,9 @@ public class Attachments {
         Silencer9x39mm = new AttachmentBuilder<Weapon>().withCategory(AttachmentCategory.SILENCER)
                 .withCreativeTab(MWC.ATTACHMENTS_TAB)
                 .withModel(new com.paneedah.mwc.models.Suppressor(), "GunmetalTexture.png")
+                .withApply((a, i) -> {
+                    i.setRecoil(i.getWeapon().getRecoil() * 0.8f);
+                })
                 .withModernRecipe(
                     	CraftingGroup.ATTACHMENT_NORMAL,
                     	new CraftingEntry(MWCItems.gunmetalIngot, 2),
@@ -15571,6 +15589,9 @@ public class Attachments {
         SuppressorKBP9A91 = new AttachmentBuilder<Weapon>().withCategory(AttachmentCategory.SILENCER)
                 .withCreativeTab(MWC.ATTACHMENTS_TAB)
                 .withModel(new com.paneedah.mwc.models.KBP9A91Suppressor(), "kbp9a91.png")
+                .withApply((a, i) -> {
+                    i.setRecoil(i.getWeapon().getRecoil() * 0.75f);
+                })
                 .withModernRecipe(
                     	CraftingGroup.ATTACHMENT_NORMAL,
                     	new CraftingEntry(MWCItems.gunmetalIngot, 2),
@@ -15613,6 +15634,9 @@ public class Attachments {
                 .withCreativeTab(MWC.ATTACHMENTS_TAB)
                 .withRequiredAttachments(KrissVectorReceiver, M1911Body)
                 .withModel(new com.paneedah.mwc.models.Suppressor45ACP(), "gun.png")
+                .withApply((a, i) -> {
+                    i.setRecoil(i.getWeapon().getRecoil() * 0.55f);
+                })
                 .withModernRecipe(
                     	CraftingGroup.ATTACHMENT_NORMAL,
                     	new CraftingEntry(MWCItems.gunmetalIngot, 2),
@@ -15652,6 +15676,9 @@ public class Attachments {
         SilencerEABH = new AttachmentBuilder<Weapon>().withCategory(AttachmentCategory.SILENCER)
                 .withCreativeTab(MWC.ATTACHMENTS_TAB)
                 .withModel(new com.paneedah.mwc.models.Suppressor45ACP(), "gun.png")
+                .withApply((a, i) -> {
+                    i.setRecoil(i.getWeapon().getRecoil() * 0.65f);
+                })
                 .withFirstPersonModelPositioning(model -> {
                     if (model instanceof com.paneedah.mwc.models.Suppressor45ACP) {
                         GL11.glTranslatef(0.5F, -1.3F, -0.1F);
@@ -15687,6 +15714,9 @@ public class Attachments {
         Silencer762x54 = new AttachmentBuilder<Weapon>().withCategory(AttachmentCategory.SILENCER)
                 .withCreativeTab(MWC.ATTACHMENTS_TAB)
                 .withModel(new com.paneedah.mwc.models.Suppressor(), "gun.png")
+                .withApply((a, i) -> {
+                    i.setRecoil(i.getWeapon().getRecoil() * 0.75f);
+                })
                 .withModernRecipe(
                     	CraftingGroup.ATTACHMENT_NORMAL,
                     	new CraftingEntry(MWCItems.gunmetalIngot, 3),
@@ -15731,6 +15761,9 @@ public class Attachments {
                     	CraftingGroup.ATTACHMENT_NORMAL,
                     	new CraftingEntry(MWCItems.gunmetalIngot, 3),
                     	new CraftingEntry(MWCItems.steelIngot, 2))
+                .withApply((a, i) -> {
+                    i.setRecoil(i.getWeapon().getRecoil() * 0.65f);
+                })
                 .withFirstPersonModelPositioning(model -> {
                     if (model instanceof com.paneedah.mwc.models.Suppressor762x51) {
                         GL11.glTranslatef(0.5F, -1.3F, -0.1F);
@@ -15767,6 +15800,9 @@ public class Attachments {
         Silencer50BMG = new AttachmentBuilder<Weapon>().withCategory(AttachmentCategory.SILENCER)
                 .withCreativeTab(MWC.ATTACHMENTS_TAB)
                 .withModel(new com.paneedah.mwc.models.Suppressor(), "GunmetalTexture.png")
+                .withApply((a, i) -> {
+                    i.setRecoil(i.getWeapon().getRecoil() * 0.65f);
+                })
                 .withModernRecipe(
                     	CraftingGroup.ATTACHMENT_NORMAL,
                     	new CraftingEntry(MWCItems.gunmetalIngot, 4),
@@ -15808,6 +15844,9 @@ public class Attachments {
         Silencer556x39 = new AttachmentBuilder<Weapon>().withCategory(AttachmentCategory.SILENCER)
                 .withCreativeTab(MWC.ATTACHMENTS_TAB)
                 .withModel(new com.paneedah.mwc.models.Suppressor556x39(), "gun.png")
+                .withApply((a, i) -> {
+                    i.setRecoil(i.getWeapon().getRecoil() * 0.75f);
+                })
                 .withModernRecipe(
                     	CraftingGroup.ATTACHMENT_NORMAL,
                     	new CraftingEntry(MWCItems.gunmetalIngot, 2),
@@ -16413,6 +16452,9 @@ public class Attachments {
         SilencerMP7 = new AttachmentBuilder<Weapon>().withCategory(AttachmentCategory.SILENCER)
                 .withCreativeTab(MWC.ATTACHMENTS_TAB)
                 .withModel(new com.paneedah.mwc.models.Suppressor(), "gun.png")
+                .withApply((a, i) -> {
+                    i.setRecoil(i.getWeapon().getRecoil() * 0.65f);
+                })
                 .withModernRecipe(
                     	CraftingGroup.ATTACHMENT_NORMAL,
                     	new CraftingEntry(MWCItems.gunmetalIngot, 2),
@@ -16452,6 +16494,9 @@ public class Attachments {
         Silencer357 = new AttachmentBuilder<Weapon>().withCategory(AttachmentCategory.SILENCER)
                 .withCreativeTab(MWC.ATTACHMENTS_TAB)
                 .withModel(new com.paneedah.mwc.models.Suppressor(), "GunmetalTexture.png")
+                .withApply((a, i) -> {
+                    i.setRecoil(i.getWeapon().getRecoil() * 0.85f);
+                })
                 .withFirstPersonModelPositioning(model -> {
                     if (model instanceof com.paneedah.mwc.models.Suppressor) {
                         GL11.glTranslatef(0.5F, -1.3F, -0.1F);
@@ -16487,6 +16532,9 @@ public class Attachments {
         Silencer57x38 = new AttachmentBuilder<Weapon>().withCategory(AttachmentCategory.SILENCER)
                 .withCreativeTab(MWC.ATTACHMENTS_TAB)
                 .withModel(new com.paneedah.mwc.models.Suppressor(), "gun.png")
+                .withApply((a, i) -> {
+                    i.setRecoil(i.getWeapon().getRecoil() * 0.75f);
+                })
                 .withModernRecipe(
                     	CraftingGroup.ATTACHMENT_NORMAL,
                     	new CraftingEntry(MWCItems.gunmetalIngot, 1),
@@ -16527,6 +16575,9 @@ public class Attachments {
         Silencer12Gauge = new AttachmentBuilder<Weapon>().withCategory(AttachmentCategory.SILENCER)
                 .withCreativeTab(MWC.ATTACHMENTS_TAB)
                 .withModel(new com.paneedah.mwc.models.Suppressor45ACP(), "GunmetalTexture.png")
+                .withApply((a, i) -> {
+                    i.setRecoil(i.getWeapon().getRecoil() * 0.75f);
+                })
                 .withModernRecipe(
                     	CraftingGroup.ATTACHMENT_NORMAL,
                     	new CraftingEntry(MWCItems.gunmetalIngot, 3),
@@ -16567,6 +16618,9 @@ public class Attachments {
         Silencer300AACBlackout = new AttachmentBuilder<Weapon>().withCategory(AttachmentCategory.SILENCER)
                 .withCreativeTab(MWC.ATTACHMENTS_TAB)
                 .withModel(new com.paneedah.mwc.models.Suppressor300AACBlackout(), "gun.png")
+                .withApply((a, i) -> {
+                    i.setRecoil(i.getWeapon().getRecoil() * 0.85f);
+                })
                 .withModernRecipe(
                     	CraftingGroup.ATTACHMENT_NORMAL,
                     	new CraftingEntry(MWCItems.gunmetalIngot, 2),
@@ -16606,6 +16660,9 @@ public class Attachments {
 
         HoneyBadgerSilencer = new AttachmentBuilder<Weapon>().withCategory(AttachmentCategory.SILENCER)
                 .withModel(new com.paneedah.mwc.models.AACHoneyBadgerSilencer(), "gun.png")
+                .withApply((a, i) -> {
+                    i.setRecoil(i.getWeapon().getRecoil() * 0.85f);
+                })
                 .withFirstPersonModelPositioning(model -> {
                     if (model instanceof com.paneedah.mwc.models.AACHoneyBadgerSilencer) {
                         GL11.glTranslatef(0.5F, -1.3F, -0.1F);
@@ -16642,6 +16699,9 @@ public class Attachments {
         Silencer65x39 = new AttachmentBuilder<Weapon>().withCategory(AttachmentCategory.SILENCER)
                 .withCreativeTab(MWC.ATTACHMENTS_TAB)
                 .withModel(new com.paneedah.mwc.models.Suppressor556x39(), "gun.png")
+                .withApply((a, i) -> {
+                    i.setRecoil(i.getWeapon().getRecoil() * 0.75f);
+                })
                 .withModernRecipe(
                     	CraftingGroup.ATTACHMENT_NORMAL,
                     	new CraftingEntry(MWCItems.gunmetalIngot, 1),
