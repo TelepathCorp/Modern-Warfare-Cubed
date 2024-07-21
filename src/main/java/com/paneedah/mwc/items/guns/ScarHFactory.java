@@ -28,7 +28,7 @@ public class ScarHFactory implements GunFactory {
 
         .withName("scar_h_cqc")
         .withFireRate(0.55f)
-        .withRecoil(4f)
+        .withRecoil(12f)
         .withZoom(0.9f)
         .withConfigGroup(GunConfigurationGroup.RIFLES)
         .withMaxShots(1, Integer.MAX_VALUE)
@@ -39,7 +39,7 @@ public class ScarHFactory implements GunFactory {
         .withEndOfShootSound("gun_click")
         .withInspectSound("inspection")
         .withDrawSound("noaction_draw")
-        .withReloadingTime(50)
+        .withReloadingTime(80)
         .withCrosshair("gun")
         .withCrosshairRunning("Running")
         .withCrosshairZoomed("Sight")
@@ -827,7 +827,7 @@ public class ScarHFactory implements GunFactory {
                    }, 250, 0))
                    
            .build())
-        .withSpawnEntityDamage(8f)
+        .withSpawnEntityDamage(12f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
          

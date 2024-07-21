@@ -24,7 +24,7 @@ public class DesertEagleFactory implements GunFactory {
 
         .withName("desert_eagle")
         .withFireRate(0.2f)
-        .withRecoil(5f)
+        .withRecoil(20f)
         .withZoom(0.9f)
         .withConfigGroup(GunConfigurationGroup.SIDEARM)
         .withMuzzlePosition(new Vec3d(-0.14400000429153445, -0.8639999959468836, -2.355999876499175))
@@ -44,7 +44,6 @@ public class DesertEagleFactory implements GunFactory {
         .withFlashScale(() -> 0.7f)
         .withFlashOffsetX(() -> 0.13f)
         .withFlashOffsetY(() -> 0.14f)
-        .withInaccuracy(3)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .useNewSystem()
         .withRecoilParam(new RecoilParam(
@@ -249,7 +248,7 @@ public class DesertEagleFactory implements GunFactory {
                    })
                           
             .build())
-        .withSpawnEntityDamage(12f)
+        .withSpawnEntityDamage(18f)
         .withSpawnEntityGravityVelocity(0.02f)
         
          
