@@ -29,7 +29,7 @@ public class Glock18CFactory implements GunFactory {
 
         .withName("glock_18c")
         .withFireRate(0.999f)
-        .withRecoil(3f)
+        .withRecoil(1f)
         .withZoom(0.9f)
         .withConfigGroup(GunConfigurationGroup.SIDEARM)
         .withMuzzlePosition(new Vec3d(-0.14400000429153445, -0.8639999959468836, -2.355999876499175))
@@ -50,7 +50,7 @@ public class Glock18CFactory implements GunFactory {
         .withFlashOffsetX(() -> 0.14f)
         .withFlashOffsetY(() -> 0.14f)
 //      .withShellCasingForwardOffset(0.001f)
-        .withInaccuracy(3)
+        .withInaccuracy(1)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .useNewSystem()
         .withRecoilParam(new RecoilParam(

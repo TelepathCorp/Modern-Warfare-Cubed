@@ -71,7 +71,7 @@ public class NGSWRFactory implements GunFactory {
 		))
 		.withInformationProvider(stack -> Arrays.asList(
 		"Type: Assault Rifle", 
-		"Damage: 7", 
+		"Damage: 15",
 		"Cartridge: .277 FURY",
 		"Fire Rate: SEMI, AUTO",
 		"Rate of Fire: 75/100",
@@ -831,7 +831,7 @@ public class NGSWRFactory implements GunFactory {
                     }, 250, 0))
 					
 			.build())
-		.withSpawnEntityDamage(7f)
+		.withSpawnEntityDamage(8.5f)
 		.withSpawnEntityGravityVelocity(0.0118f)
 				
 		 

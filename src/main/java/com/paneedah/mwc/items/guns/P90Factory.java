@@ -793,7 +793,7 @@ public class P90Factory {
                     }, 280, 0))
              
             .build())
-        .withSpawnEntityDamage(5.5f)
+        .withSpawnEntityDamage(6f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
         .build(MWC.modContext);

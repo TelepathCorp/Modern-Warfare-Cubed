@@ -20,7 +20,7 @@ public class L96A1Factory implements GunFactory {
         return new Weapon.Builder()
 
         .withName("l96a1")
-        .withFireRate(0.16f)
+        .withFireRate(0.10f)
         .withEjectRoundRequired()
         .withEjectSpentRoundSound("l96a1_bolt_action")
         .withRecoil(8f)
@@ -2237,7 +2237,7 @@ public class L96A1Factory implements GunFactory {
                     )
                     
             .build())
-        .withSpawnEntityDamage(14f)
+        .withSpawnEntityDamage(30f)
         .withSpawnEntityGravityVelocity(0f)
         
          
