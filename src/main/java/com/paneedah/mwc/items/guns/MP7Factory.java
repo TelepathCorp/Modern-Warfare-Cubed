@@ -75,7 +75,7 @@ public class MP7Factory {
 		))
         .withInformationProvider(stack -> Arrays.asList(
         "Type: Sub Machine Gun/ Personal Defense Weapon/ Machine Pistol",
-        "Damage: 6.5",
+        "Damage: 5",
         "Cartridge: 4.6x30mm",
         "Fire Rate: SEMI, AUTO",
         "Rate of Fire: 80/100",
@@ -765,7 +765,7 @@ public class MP7Factory {
                     }, 280, 0))
              
             .build())
-        .withSpawnEntityDamage(5.5f)
+        .withSpawnEntityDamage(5.0f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
         .build(MWC.modContext);
