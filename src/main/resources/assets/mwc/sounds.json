@@ -2518,5 +2518,14 @@
        "stream": false
       }
     ]
+  },
+  "50bmg_silenced": {
+    "category": "master",
+    "sounds": [
+      {
+        "name":"mwc:50bmg_silenced",
+        "stream": true
+      }
+    ]
   }
 }

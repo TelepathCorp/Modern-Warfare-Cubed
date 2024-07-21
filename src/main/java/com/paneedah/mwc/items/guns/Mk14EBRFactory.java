@@ -25,7 +25,7 @@ public class Mk14EBRFactory {
         return new Weapon.Builder()
 
         .withName("mk14_ebr")
-        .withFireRate(0.7f)
+        .withFireRate(0.45f)
         .withRecoil(4.5f)
         .withZoom(0.9f)
         .withConfigGroup(GunConfigurationGroup.DMR)
@@ -69,10 +69,10 @@ public class Mk14EBRFactory {
 		))
         .withInformationProvider(stack -> Arrays.asList(
         "Type: Battle Rifle/Designated Marksmen Rifle",
-        "Damage: 10", 
+        "Damage: 14",
         "Cartridge: 7.62x51mm",
         "Fire Rate: SEMI, AUTO",
-        "Rate of Fire: 75/100",
+        "Rate of Fire: 45/100",
         "Magazines:",
         "20rnd 7.62x51mm NATO EBR Magazine",
         "50rnd 7.62x51mm NATO EBR Drum Magazine"))
@@ -921,7 +921,7 @@ public class Mk14EBRFactory {
                   }, 300, 0))
            
           .build())
-        .withSpawnEntityDamage(10f)
+        .withSpawnEntityDamage(14f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
         .build(MWC.modContext);

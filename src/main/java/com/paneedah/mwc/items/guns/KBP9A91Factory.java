@@ -29,8 +29,8 @@ public class KBP9A91Factory {
         return new Weapon.Builder()
 
         .withName("kbp_9a91")
-        .withFireRate(0.7f)
-        .withRecoil(2f)
+        .withFireRate(0.9f)
+        .withRecoil(1.75f)
         .withZoom(0.9f)
         .withConfigGroup(GunConfigurationGroup.RIFLES)
         .withShellType(Type.PISTOL)
@@ -50,7 +50,7 @@ public class KBP9A91Factory {
         .withFlashScale(() -> 0.6f)
         .withFlashOffsetX(() -> 0.1f)
         .withFlashOffsetY(() -> 0.15f)
-        .withInaccuracy(2f)
+        .withInaccuracy(1f)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .useNewSystem()
         .withRecoilParam(new RecoilParam(
@@ -73,10 +73,10 @@ public class KBP9A91Factory {
 		))
         .withInformationProvider(stack -> Arrays.asList(
         "Type: Carbine",
-        "Damage: 7", 
+        "Damage: 9.5",
         "Cartridge: 9x39mm",
         "Fire Rate: SEMI, AUTO",
-        "Rate of Fire: 70/100",
+        "Rate of Fire: 80/100",
         "Magazines:",
         "20rnd 9x39mm KBP Magazine"))
         
@@ -538,7 +538,7 @@ public class KBP9A91Factory {
                     }, 280, 0))
              
             .build())
-        .withSpawnEntityDamage(7f)
+        .withSpawnEntityDamage(9.5f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
         .build(MWC.modContext);
