@@ -46,8 +46,8 @@ public class Spas12Factory implements GunFactory {
         .withShellCasingModel(new com.paneedah.mwc.models.Shotgun12Gauge())
         .withShellCasingModelTexture("shotgun12gauge")
         .withCrosshairZoomed("Sight")
-        .withInaccuracy(8)
-        .withPellets(10)
+        .withInaccuracy(7)
+        .withPellets(12)
         .withFlashIntensity(0.5f)
         .withFlashScale(() -> 0.6f)
         .withFlashOffsetX(() -> 0.12f)
@@ -56,7 +56,7 @@ public class Spas12Factory implements GunFactory {
         .withInformationProvider(stack -> Arrays.asList(
         "Type: Shotgun",
         "Damage per Pellet: 6",
-        "Pellets per Shot: 10", 
+        "Pellets per Shot: 12",
         "Cartridge: 12 Gauge Shotgun Shell",
         "Fire Rate: SEMI",
         "Rate of Fire: 20/100"))

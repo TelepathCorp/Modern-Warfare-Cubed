@@ -48,7 +48,7 @@ public class M1897Factory implements GunFactory {
 		.withShellCasingEjectEnabled(false)
 		.withCrosshairZoomed("Sight")
 		.withInaccuracy(18)
-		.withPellets(10)
+		.withPellets(8)
 		.withFlashIntensity(0.4f)
 		.withFlashScale(() -> 0.8f)
 		.withFlashOffsetX(() -> 0.08f)
@@ -64,7 +64,7 @@ public class M1897Factory implements GunFactory {
 	        .withInformationProvider(stack -> Arrays.asList(
 	        "Type: Shotgun",
 	        "Damage per Pellet: 4.5",
-	        "Pellets per Shot: 10", 
+	        "Pellets per Shot: 8",
 	        "Cartridge: 12 Gauge Shotgun Shell",
 	        "Fire Rate: PUMP ACTION",
 	        "Rate of Fire: 50/100"))

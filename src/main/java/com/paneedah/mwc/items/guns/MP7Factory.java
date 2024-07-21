@@ -75,7 +75,7 @@ public class MP7Factory {
 		))
         .withInformationProvider(stack -> Arrays.asList(
         "Type: Sub Machine Gun/ Personal Defense Weapon/ Machine Pistol",
-        "Damage: 5.5", 
+        "Damage: 6.5",
         "Cartridge: 4.6x30mm",
         "Fire Rate: SEMI, AUTO",
         "Rate of Fire: 80/100",

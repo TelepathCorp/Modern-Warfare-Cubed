@@ -214,7 +214,7 @@ public class PythonFactory implements GunFactory {
                 })
             
             .build())
-		.withSpawnEntityDamage(7.5f)
+		.withSpawnEntityDamage(8f)
 		.withSpawnEntityGravityVelocity(0.016f)
 		
 		 

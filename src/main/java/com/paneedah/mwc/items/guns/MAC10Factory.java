@@ -51,7 +51,7 @@ public class MAC10Factory {
         .withFlashScale(() -> 0.6f)
         .withFlashOffsetX(() -> 0.16f)
         .withFlashOffsetY(() -> 0.16f)
-        .withInaccuracy(3f)
+        .withInaccuracy(4f)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .useNewSystem()
         .withRecoilParam(new RecoilParam(
@@ -74,7 +74,7 @@ public class MAC10Factory {
 		))
         .withInformationProvider(stack -> Arrays.asList(
         "Type: Machine Pistol / Submachine Gun",
-        "Damage: 5.3", 
+        "Damage: 4.5",
         "Cartridge: .45 ACP",
         "Fire Rate: SEMI, AUTO",
         "Rate of Fire: 99/100",
@@ -735,7 +735,7 @@ public class MAC10Factory {
                    }, 250, 0))
                          
            .build())
-        .withSpawnEntityDamage(5.3f)
+        .withSpawnEntityDamage(4.5f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
         .build(MWC.modContext);

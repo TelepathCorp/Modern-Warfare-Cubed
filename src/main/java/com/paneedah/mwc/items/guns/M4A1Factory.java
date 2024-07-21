@@ -1518,7 +1518,7 @@ public class M4A1Factory implements GunFactory {
                     }, 250, 0))
 					
 			.build())
-		.withSpawnEntityDamage(6f)
+		.withSpawnEntityDamage(8.5f)
 		.withSpawnEntityGravityVelocity(0.0118f)
 				
 		 
