@@ -53,7 +53,7 @@ public class MaresLegFactory implements GunFactory {
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
         "Type: Lever Action Rifle",
-        "Damage: 5.5",
+        "Damage: 4.5",
         "Cartridge: .44 Magnum",
         "Fire Rate: LEVER ACTION",
         "Rate of Fire: 50/100"))
@@ -936,7 +936,7 @@ public class MaresLegFactory implements GunFactory {
                     )
                     
             .build())
-        .withSpawnEntityDamage(5.5f)
+        .withSpawnEntityDamage(4.5f)
         
          
         .build(MWC.modContext);

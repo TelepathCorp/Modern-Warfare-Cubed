@@ -59,7 +59,7 @@ public class SpringfieldFactory implements GunFactory {
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
         "Type: Bolt-action rifle",
-        "Damage: 15",
+        "Damage: 8",
         "Cartridge: .30-06 Springfield Bullet", 
         "Fire Rate: Bolt Action",
         "Rate of Fire: 16/100"))
@@ -1850,7 +1850,7 @@ public class SpringfieldFactory implements GunFactory {
                     )
                     
             .build())
-        .withSpawnEntityDamage(15f)
+        .withSpawnEntityDamage(8f)
         .withSpawnEntityGravityVelocity(0f)
         
          

@@ -25,7 +25,7 @@ public class MP43EFactory implements GunFactory {
 
         .withName("MP43E")
         .withAmmoCapacity(2)
-        .withFireRate(0.3f)
+        .withFireRate(0.1f)
         .withRecoil(14f)
         .withZoom(0.9f)
         .withConfigGroup(GunConfigurationGroup.SHOTGUN)
@@ -36,7 +36,7 @@ public class MP43EFactory implements GunFactory {
         .withReloadIterationSound("load_shell")
         .withDrawSound("noaction_draw")
         .withAllReloadIterationsCompletedSound("mp43ereloadfin")
-        .withReloadingTime(15)
+        .withReloadingTime(40)
         .withCrosshair("gun")
         .withCrosshairRunning("Running")    
         .withShellCasingEjectEnabled(false)
@@ -50,8 +50,8 @@ public class MP43EFactory implements GunFactory {
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
         "Type: Shotgun",
-        "Damage per Pellet: 6",
-        "Pellets per Shot: 10", 
+        "Damage per Pellet: 2",
+        "Pellets per Shot: 10",
         "Cartridge: 12 Gauge Shotgun Shell",
         "Fire Rate: SEMI ACTION",
         "Rate of Fire: 30/100"))
@@ -1342,7 +1342,7 @@ public class MP43EFactory implements GunFactory {
                     )
                     
             .build())
-        .withSpawnEntityDamage(6f)
+        .withSpawnEntityDamage(2f)
         .withSpawnEntityGravityVelocity(0.8f)
         
          

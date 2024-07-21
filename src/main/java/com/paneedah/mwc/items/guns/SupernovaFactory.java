@@ -46,7 +46,7 @@ public class SupernovaFactory implements GunFactory {
         .withShellCasingEjectEnabled(false)
         .withCrosshairZoomed("Sight")
         .withInaccuracy(15)
-        .withPellets(10)
+        .withPellets(8)
         .withFlashIntensity(0.5f)
         .withFlashScale(() -> 0.6f)
         .withFlashOffsetX(() -> 0.05f)
@@ -54,8 +54,8 @@ public class SupernovaFactory implements GunFactory {
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
         "Type: Shotgun",
-        "Damage per Pellet: 6",
-        "Pellets per Shot: 10", 
+        "Damage per Pellet: 5.5",
+        "Pellets per Shot: 8",
         "Cartridge: 12 Gauge Shotgun Shell",
         "Fire Rate: PUMP ACTION",
         "Rate of Fire: 30/100"))
@@ -1884,7 +1884,7 @@ public class SupernovaFactory implements GunFactory {
                     )
                     
             .build())
-        .withSpawnEntityDamage(6f)
+        .withSpawnEntityDamage(5.5f)
         .withSpawnEntityGravityVelocity(0.8f)
         
          

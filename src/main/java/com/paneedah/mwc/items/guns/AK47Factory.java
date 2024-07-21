@@ -71,7 +71,7 @@ public class AK47Factory {
 		))
         .withInformationProvider(stack -> Arrays.asList(
         "Type: Assault rifle",
-        "Damage: 6.6", 
+        "Damage: 5",
         "Cartridge: 7.62x39mm",
         "Fire Rate: SEMI, AUTO",
         "Rate of Fire: 60/100",
@@ -973,7 +973,7 @@ public class AK47Factory {
                     }, 300, 0))
              
             .build())
-        .withSpawnEntityDamage(6.6f)
+        .withSpawnEntityDamage(5f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
         .build(MWC.modContext);

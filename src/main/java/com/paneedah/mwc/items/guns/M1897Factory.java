@@ -63,7 +63,7 @@ public class M1897Factory implements GunFactory {
 	        .withCreativeTab(MWC.WEAPONS_TAB)
 	        .withInformationProvider(stack -> Arrays.asList(
 	        "Type: Shotgun",
-	        "Damage per Pellet: 6",
+	        "Damage per Pellet: 4.5",
 	        "Pellets per Shot: 10", 
 	        "Cartridge: 12 Gauge Shotgun Shell",
 	        "Fire Rate: PUMP ACTION",
@@ -1405,7 +1405,7 @@ public class M1897Factory implements GunFactory {
                     )
 					
 			.build())
-		.withSpawnEntityDamage(6f)
+		.withSpawnEntityDamage(4f)
 		.withSpawnEntityGravityVelocity(0.8f)
 		
 		 

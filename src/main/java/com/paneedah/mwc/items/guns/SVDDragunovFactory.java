@@ -69,7 +69,7 @@ public class SVDDragunovFactory {
         ))
         .withInformationProvider(stack -> Arrays.asList(
         "Type: Sniper Rifle",
-        "Damage: 14", 
+        "Damage: 9",
         "Cartridge: 7.62x54mmR",
         "Fire Rate: SEMI, AUTO",
         "Rate of Fire: 60/100",
@@ -810,7 +810,7 @@ public class SVDDragunovFactory {
                     }, 300, 0))
              
             .build())
-        .withSpawnEntityDamage(14f)
+        .withSpawnEntityDamage(9f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
         .build(MWC.modContext);
