@@ -27,7 +27,7 @@ public class ScorpionEVO3A1Factory implements GunFactory {
 		.withName("scorpion_evo3_a1")
 		//.withAmmoCapacity(30)
 		.withFireRate(0.999f)
-		.withRecoil(1.5f)
+		.withRecoil(2.5f)
 		.withZoom(0.9f)
 		.withConfigGroup(GunConfigurationGroup.SMG)
 		.withShellType(Type.PISTOL)
@@ -39,7 +39,7 @@ public class ScorpionEVO3A1Factory implements GunFactory {
 		.withEndOfShootSound("gun_click")
 		.withInspectSound("inspection")
 		.withDrawSound("noaction_draw")
-		.withReloadingTime(50)
+		.withReloadingTime(10)
 		.withCrosshair("gun")
 		.withCrosshairRunning("Running")
 		.withCrosshairZoomed("Sight")
@@ -47,6 +47,7 @@ public class ScorpionEVO3A1Factory implements GunFactory {
 		.withFlashScale(() -> 0.6f)
 		.withFlashOffsetX(() -> 0.12f)
 		.withFlashOffsetY(() -> 0.15f)
+                .withInaccuracy(0.5F)
 		.withShellCasingForwardOffset(0.05f)
 		.withShellCasingVerticalOffset(-0.03f)
 //		.withShellCasingEjectEnabled(false)
@@ -767,7 +768,7 @@ public class ScorpionEVO3A1Factory implements GunFactory {
                     }, 250, 0))
 					
 			.build())
-		.withSpawnEntityDamage(5f)
+		.withSpawnEntityDamage(8.5f)
 		.withSpawnEntityGravityVelocity(0.0118f)
 				
 		 

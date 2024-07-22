@@ -973,7 +973,7 @@ public class AK47Factory {
                     }, 300, 0))
              
             .build())
-        .withSpawnEntityDamage(5f)
+        .withSpawnEntityDamage(5.5f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
         .build(MWC.modContext);

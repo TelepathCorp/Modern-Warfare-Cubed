@@ -27,8 +27,8 @@ public class ScarHFactory implements GunFactory {
         return new Weapon.Builder()
 
         .withName("scar_h_cqc")
-        .withFireRate(0.55f)
-        .withRecoil(8f)
+        .withFireRate(0.6f)
+        .withRecoil(3f)
         .withZoom(0.9f)
         .withConfigGroup(GunConfigurationGroup.RIFLES)
         .withMaxShots(1, Integer.MAX_VALUE)
@@ -49,7 +49,6 @@ public class ScarHFactory implements GunFactory {
         .withFlashOffsetY(() -> 0.17f)
         .withShellCasingForwardOffset(0.05f)
         .withShellCasingVerticalOffset(-0.03f)
-        .withInaccuracy(1f)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .useNewSystem()
 		.withRecoilParam(new RecoilParam(
@@ -828,7 +827,7 @@ public class ScarHFactory implements GunFactory {
                    }, 250, 0))
                    
            .build())
-        .withSpawnEntityDamage(13f)
+        .withSpawnEntityDamage(12.5f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
          

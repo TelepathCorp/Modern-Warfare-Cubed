@@ -735,7 +735,7 @@ public class MAC10Factory {
                    }, 250, 0))
                          
            .build())
-        .withSpawnEntityDamage(4.5f)
+        .withSpawnEntityDamage(3.5f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
         .build(MWC.modContext);

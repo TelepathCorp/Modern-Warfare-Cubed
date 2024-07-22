@@ -1209,7 +1209,7 @@ public class Spas12Factory implements GunFactory {
                     )
                     
             .build())
-        .withSpawnEntityDamage(5.5f)
+        .withSpawnEntityDamage(5f)
         .withSpawnEntityGravityVelocity(0.8f)
         
          
