@@ -27,8 +27,8 @@ public class AACHoneyBadgerFactory implements GunFactory {
         return new Weapon.Builder()
                 
                 .withName("aac_honey_badger") // Name of the item and model
-                .withFireRate(0.80f) // Fire rate in rounds per minute
-                .withRecoil(3f) // Recoil in degrees
+                .withFireRate(0.85f) // Fire rate in rounds per minute
+                .withRecoil(1f) // Recoil in degrees
                 .withZoom(0.9f) // Zoom factor
                 .withConfigGroup(GunConfigurationGroup.RIFLES) // Config group
                 .withMaxShots(1, Integer.MAX_VALUE) // Max shots per reload
@@ -51,6 +51,7 @@ public class AACHoneyBadgerFactory implements GunFactory {
                 .withShellCasingForwardOffset(0.1f) // Shell casing forward offset
                 .withShellCasingVerticalOffset(-0.05f) // Shell casing vertical offset
                 .withCreativeTab(MWC.WEAPONS_TAB) // Creative tab
+                .withInaccuracy(0.5f)
                 .useNewSystem() // Use new system
                 .withRecoilParam(new RecoilParam( // Recoil param
                         // The weapon power
@@ -72,10 +73,10 @@ public class AACHoneyBadgerFactory implements GunFactory {
                 ))
                 .withInformationProvider(stack -> Arrays.asList( // Information provider
                         "Type: Personal Defense Weapon",  // Information
-                        "Damage: 5.4", // Damage in Item Description
+                        "Damage: 14", // Damage in Item Description
                         "Cartridge: 7.62x35mm", // Cartridge in Item Description
                         "Fire Rate: SEMI, AUTO", // Fire Rate in Item Description
-                        "Rate of Fire: 70/100", // Rate of Fire in Item Description
+                        "Rate of Fire: 85/100", // Rate of Fire in Item Description
                         "Magazines:", // Magazines in Item Description
                         "30rnd 7.62x35mm Honeybadger Magazine" // Magazines Tyoes in Item Description
                 ))
@@ -1004,7 +1005,7 @@ public class AACHoneyBadgerFactory implements GunFactory {
                                 }, 250, 0))
 
                         .build())
-                .withSpawnEntityDamage(5.4f)
+                .withSpawnEntityDamage(14f)
                 .withSpawnEntityGravityVelocity(0.0118f)
 
 

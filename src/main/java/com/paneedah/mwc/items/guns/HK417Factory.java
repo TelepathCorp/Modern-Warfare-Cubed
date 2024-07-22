@@ -24,11 +24,11 @@ public class HK417Factory implements GunFactory {
 		.withName("hk_417")
 		//.withAmmoCapacity(30)
 		.withFireRate(0.75f)
-		.withRecoil(5f)
+		.withRecoil(1.5f)
 		.withZoom(0.9f)
 		.withConfigGroup(GunConfigurationGroup.DMR)
 		.hasFlashPedals()
-		.withMaxShots(1, Integer.MAX_VALUE)
+        .withMaxShots(1, 2, Integer.MAX_VALUE)
 		.withShootSound("m38_dmr")
 		.withSilencedShootSound("m4a1_silenced")
 		.withReloadSound("m4a1_reload")
@@ -69,9 +69,9 @@ public class HK417Factory implements GunFactory {
         ))
 		.withInformationProvider(stack -> Arrays.asList(
 		"Type: Battle Rifle/Designated Marksmen Rifle", 
-		"Damage: 10", 
+		"Damage: 28",
 		"Cartridge: 7.62x51mm",
-		"Fire Rate: SEMI, AUTO",
+		"Fire Rate: SEMI, BURST, AUTO",
 		"Rate of Fire: 75/100",
 		"Magazines:",
         "20rnd 7.62x51mm 417 Magazine"))
@@ -1023,7 +1023,7 @@ public class HK417Factory implements GunFactory {
                    }, 250, 0))
                    
            .build())
-		.withSpawnEntityDamage(10f)
+		.withSpawnEntityDamage(28f)
 		.withSpawnEntityGravityVelocity(0.0118f)
 				
 		 
