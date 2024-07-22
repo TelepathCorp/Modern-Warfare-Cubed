@@ -46,7 +46,7 @@ public class Mk14EBRFactory {
         .withFlashScale(() -> 0.6f)
         .withFlashOffsetX(() -> 0.08f)
         .withFlashOffsetY(() -> 0.10f)
-        .withInaccuracy(1f)
+        .withInaccuracy(0f)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .useNewSystem()
         .withRecoilParam(new RecoilParam(
@@ -69,7 +69,7 @@ public class Mk14EBRFactory {
 		))
         .withInformationProvider(stack -> Arrays.asList(
         "Type: Battle Rifle/Designated Marksmen Rifle",
-        "Damage: 14",
+        "Damage: 15",
         "Cartridge: 7.62x51mm",
         "Fire Rate: SEMI, AUTO",
         "Rate of Fire: 45/100",
@@ -921,7 +921,7 @@ public class Mk14EBRFactory {
                   }, 300, 0))
            
           .build())
-        .withSpawnEntityDamage(14f)
+        .withSpawnEntityDamage(15f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
         .build(MWC.modContext);

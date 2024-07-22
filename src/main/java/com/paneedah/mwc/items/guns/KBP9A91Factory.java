@@ -73,7 +73,7 @@ public class KBP9A91Factory {
 		))
         .withInformationProvider(stack -> Arrays.asList(
         "Type: Carbine",
-        "Damage: 9.5",
+        "Damage: 10",
         "Cartridge: 9x39mm",
         "Fire Rate: SEMI, AUTO",
         "Rate of Fire: 80/100",
@@ -538,7 +538,7 @@ public class KBP9A91Factory {
                     }, 280, 0))
              
             .build())
-        .withSpawnEntityDamage(9.5f)
+        .withSpawnEntityDamage(10f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
         .build(MWC.modContext);
