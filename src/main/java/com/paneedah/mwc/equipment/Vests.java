@@ -209,7 +209,7 @@ public class Vests {
         new ItemVest.Builder()
                 .withName("usMC_vest_urban")
 //        .withDamageReduceAmount(8) // use numbers from 1 to 8
-                .withPercentDamageBlocked(0.4)
+                .withPercentDamageBlocked(0.5)
                 .withDurability(250) // works the same way as shield's max capacity
                 .withTab(MWC.EQUIPMENT_TAB)
                 .withProperModel("com.paneedah.mwc.models.USMCVest", "militaryuniformurban.png")

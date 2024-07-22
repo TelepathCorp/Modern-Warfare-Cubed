@@ -54,9 +54,7 @@ public class Armors {
     public static Item Juggernautboots;
     public static Item Juggernauthelmet;
     
-    public static Item NaziSantachest;
-    public static Item NaziSantaboots;
-    public static Item NaziSantahelmet;
+
     
     public static Item Santachest;
     public static Item Santaboots;
@@ -162,16 +160,7 @@ public class Armors {
         Armors.Santahelmet = santaArmorBuilder.buildHelmet(modContext);
         Armors.Santachest = santaArmorBuilder.buildChest(modContext.isClient());
         Armors.Santaboots = santaArmorBuilder.buildBoots(modContext.isClient());
-        
-        Builder nazisantaArmorBuilder = new CustomArmor.Builder().withMaterial(Armors.Marine)
-                .withUnlocalizedName("Nazisanta")
-                .withTextureName("santasuit_nazi")
-                .withModelClass("com.paneedah.mwc.models.SantaSuit")
-                .withCreativeTab(MWC.EQUIPMENT_TAB);
 
-        Armors.NaziSantahelmet = nazisantaArmorBuilder.buildHelmet(modContext);
-        Armors.NaziSantachest = nazisantaArmorBuilder.buildChest(modContext.isClient());
-        Armors.NaziSantaboots = nazisantaArmorBuilder.buildBoots(modContext.isClient());
         
         Builder juggernautsuitArmorBuilder = new CustomArmor.Builder().withMaterial(Armors.Juggernaut)
                 .withUnlocalizedName("Juggernaut")
