@@ -23,7 +23,7 @@ public class M249Factory {
 
         .withName("m249")
         .withFireRate(0.7f)
-        .withRecoil(2f)
+        .withRecoil(8f)
         .withZoom(0.9f)
         .withConfigGroup(GunConfigurationGroup.HEAVY)
         .withMuzzlePosition(new Vec3d(-0.13600000405311594, -1.144000004291535, -8.012000045061113))
@@ -44,6 +44,7 @@ public class M249Factory {
         .withFlashScale(() -> 0.6f)
         .withFlashOffsetX(() -> 0.1f)
         .withFlashOffsetY(() -> 0.15f)
+        .withInaccuracy(2f)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .useNewSystem()
         .withRecoilParam(new RecoilParam(
@@ -562,7 +563,7 @@ public class M249Factory {
                  })
              
             .build())
-        .withSpawnEntityDamage(6f)
+        .withSpawnEntityDamage(18f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
         .build(MWC.modContext);

@@ -26,8 +26,8 @@ public class FiveSevenFactory implements GunFactory {
         return new Weapon.Builder()
 
         .withName("fiveseven")
-        .withFireRate(0.5f)
-        .withRecoil(2f)
+        .withFireRate(0.6f)
+        .withRecoil(1f)
         .withZoom(0.9f)
         .withConfigGroup(GunConfigurationGroup.HANDGUN)
         .withMuzzlePosition(new Vec3d(-0.14400000429153445, -0.8639999959468836, -2.355999876499175))
@@ -48,7 +48,7 @@ public class FiveSevenFactory implements GunFactory {
         .withFlashOffsetX(() -> 0.11f)
         .withFlashOffsetY(() -> 0.13f)
 //      .withShellCasingForwardOffset(0.001f)
-        .withInaccuracy(3)
+        .withInaccuracy(0.5f)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .useNewSystem()
         .withRecoilParam(new RecoilParam(
@@ -407,7 +407,7 @@ public class FiveSevenFactory implements GunFactory {
                     }, 250, 0))
                           
             .build())
-        .withSpawnEntityDamage(5f)
+        .withSpawnEntityDamage(15f)
         .withSpawnEntityGravityVelocity(0.02f)
         
          
