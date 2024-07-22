@@ -248,7 +248,7 @@ public class DesertEagleFactory implements GunFactory {
                    })
                           
             .build())
-        .withSpawnEntityDamage(25f)
+        .withSpawnEntityDamage(30f)
         .withSpawnEntityGravityVelocity(0.02f)
         
          
