@@ -48,7 +48,7 @@ public class KrissVectorFactory {
         .withFlashScale(() -> 0.5f)
         .withFlashOffsetX(() -> 0.12f)
         .withFlashOffsetY(() -> 0.22f)
-        .withInaccuracy(2f)
+        .withInaccuracy(1f)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .useNewSystem()
         .withRecoilParam(new RecoilParam(
@@ -1073,7 +1073,7 @@ public class KrissVectorFactory {
                     }, 300, 0))
              
             .build())
-        .withSpawnEntityDamage(5.3f)
+        .withSpawnEntityDamage(7f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
         .build(MWC.modContext);
