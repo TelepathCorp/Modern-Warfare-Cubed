@@ -1073,7 +1073,7 @@ public class KrissVectorFactory {
                     }, 300, 0))
              
             .build())
-        .withSpawnEntityDamage(7f)
+        .withSpawnEntityDamage(7.5f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
         .build(MWC.modContext);

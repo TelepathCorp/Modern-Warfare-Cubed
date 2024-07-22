@@ -832,7 +832,7 @@ public class Origin12Factory {
                     }, 300, 0))
              
             .build())
-        .withSpawnEntityDamage(6.5f)
+        .withSpawnEntityDamage(7.5f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
         .build(MWC.modContext);
