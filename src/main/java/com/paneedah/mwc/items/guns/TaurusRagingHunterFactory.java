@@ -23,8 +23,8 @@ public class TaurusRagingHunterFactory implements GunFactory {
 
         .withName("taurus_raging_hunter")
         .withAmmoCapacity(6)
-        .withFireRate(0.2f)
-        .withRecoil(7f)
+        .withFireRate(0.15f)
+        .withRecoil(15f)
         .withZoom(0.9f)
         .withConfigGroup(GunConfigurationGroup.REVOLVER)
         .withMaxShots(1)
@@ -41,7 +41,6 @@ public class TaurusRagingHunterFactory implements GunFactory {
 		.withFlashScale(() -> 0.6f)
 		.withFlashOffsetX(() -> 0.1f)
 		.withFlashOffsetY(() -> 0.15f)
-        .withInaccuracy(2)
         .withShellCasingEjectEnabled(false)
         .withCreativeTab(MWC.WEAPONS_TAB)
         .useNewSystem()
@@ -238,7 +237,7 @@ public class TaurusRagingHunterFactory implements GunFactory {
                 })
             
             .build())
-        .withSpawnEntityDamage(11f)
+        .withSpawnEntityDamage(65f)
         .withSpawnEntityGravityVelocity(0.016f)
         
          
