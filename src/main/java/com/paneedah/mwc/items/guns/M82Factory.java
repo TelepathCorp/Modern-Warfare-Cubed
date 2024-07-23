@@ -72,7 +72,7 @@ public class M82Factory implements GunFactory {
         ))
         .withInformationProvider(stack -> Arrays.asList(
         "Type: Anti-Materiel Sniper Rifle",
-        "Damage: 25", 
+        "Damage: 85",
         "Cartridge: .50 BMG",
         "Fire Rate: SEMI",
         "Rate of Fire: 10/100",
@@ -729,7 +729,7 @@ public class M82Factory implements GunFactory {
                    }, 300, 0))
             
            .build())
-        .withSpawnEntityDamage(25f)
+        .withSpawnEntityDamage(85f)
         .withSpawnEntityGravityVelocity(0f)
         
          

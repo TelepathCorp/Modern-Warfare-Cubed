@@ -672,7 +672,7 @@ public class Magazines {
                 .withTextureName("Dummy.png").build(MWC.modContext, ItemMagazine.class);
         
         Magazines.HK417Mag = new ItemMagazine.Builder()
-        		.withCapacity(20)
+        		.withCapacity(15)
         		.withCompatibleBullet(Bullets.Bullet762x51)
         		.withName("hk417_mag")
                 .withCreativeTab(MWC.AMMUNITION_AND_MAGAZINES_TAB)

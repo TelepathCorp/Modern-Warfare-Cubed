@@ -74,7 +74,7 @@ public class HK417Factory implements GunFactory {
 		"Fire Rate: SEMI, BURST, AUTO",
 		"Rate of Fire: 75/100",
 		"Magazines:",
-        "20rnd 7.62x51mm 417 Magazine"))
+        "15rnd 7.62x51mm 417 Magazine"))
 		 
 		 .withScreenShaking(RenderableState.SHOOTING, 
 	                2f, // x 
