@@ -15801,7 +15801,7 @@ public class Attachments {
                 .withCreativeTab(MWC.ATTACHMENTS_TAB)
                 .withModel(new com.paneedah.mwc.models.Suppressor(), "GunmetalTexture.png")
                 .withApply((a, i) -> {
-                    i.setRecoil(i.getWeapon().getRecoil() * 0.65f);
+                    i.setRecoil(i.getWeapon().getRecoil() * 0.35f);
                 })
                 .withModernRecipe(
                     	CraftingGroup.ATTACHMENT_NORMAL,

@@ -36,6 +36,8 @@ public class M82Factory implements GunFactory {
         .hasFlashPedals()
         .withMaxShots(1)
         .withShootSound("m82")
+        .withShootSoundVolume(20f)
+        .withSilenceShootSoundVolume(10f)
         .withPumpTimeout(600)
         .withSilencedShootSound("50bmg_silenced")
         .withReloadSound("as50_reload")
@@ -72,7 +74,7 @@ public class M82Factory implements GunFactory {
         ))
         .withInformationProvider(stack -> Arrays.asList(
         "Type: Anti-Materiel Sniper Rifle",
-        "Damage: 85",
+        "Damage: 75",
         "Cartridge: .50 BMG",
         "Fire Rate: SEMI",
         "Rate of Fire: 10/100",
@@ -729,7 +731,7 @@ public class M82Factory implements GunFactory {
                    }, 300, 0))
             
            .build())
-        .withSpawnEntityDamage(85f)
+        .withSpawnEntityDamage(75f)
         .withSpawnEntityGravityVelocity(0f)
         
          
