@@ -606,7 +606,7 @@ public class M79Factory implements GunFactory {
                     )
                     
             .build())
-            .withSpawnEntityDamage(40f)
+            .withSpawnEntityDamage(25f)
             .withSpawnEntityGravityVelocity(0.3f)
             .withSpawnEntitySpeed(5f)
             .withSpawnEntityExplosionRadius(4f)
