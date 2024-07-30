@@ -46,7 +46,7 @@ public class AS50Factory implements GunFactory {
         .withCreativeTab(MWC.WEAPONS_TAB)
         .withInformationProvider(stack -> Arrays.asList(
         "Type: Anti-Materiel Sniper Rifle",
-        "Damage: 25", 
+        "Damage: 35",
         "Cartridge: .50 BMG",
         "Fire Rate: SEMI",
         "Rate of Fire: 10/100",
@@ -2073,7 +2073,7 @@ public class AS50Factory implements GunFactory {
             
                     
             .build())
-        .withSpawnEntityDamage(25f)
+        .withSpawnEntityDamage(35f)
         .withSpawnEntityGravityVelocity(0f)
         
          

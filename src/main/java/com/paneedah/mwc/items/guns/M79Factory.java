@@ -47,7 +47,7 @@ public class M79Factory implements GunFactory {
                 3f, // y
                 2f) // z
         
-        .withInformationProvider(stack -> Arrays.asList("Type: Grenade Launcher", "Damage: 70", 
+        .withInformationProvider(stack -> Arrays.asList("Type: Grenade Launcher", "Damage: 40",
         "Cartridge: 40mm Grenade", "Fire Rate: Semi"))
         .withCompatibleAttachment(Bullets.Grenade40mm, (model) -> {})
         
@@ -606,7 +606,7 @@ public class M79Factory implements GunFactory {
                     )
                     
             .build())
-            .withSpawnEntityDamage(70f)
+            .withSpawnEntityDamage(40f)
             .withSpawnEntityGravityVelocity(0.3f)
             .withSpawnEntitySpeed(5f)
             .withSpawnEntityExplosionRadius(4f)
