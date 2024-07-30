@@ -29,7 +29,7 @@ public class M82Factory implements GunFactory {
 
         .withName("m82_barrett")
         .withFireRate(0.1f)
-        .withRecoil(15f)
+        .withRecoil(10f)
         .withZoom(0.8f)
         .withConfigGroup(GunConfigurationGroup.LONG_RANGE_RIFLES)
         .withMuzzlePosition(new Vec3d(-0.1480000044107437, -1.0880000026226049, -10.836000129222878))
@@ -731,7 +731,7 @@ public class M82Factory implements GunFactory {
                    }, 300, 0))
             
            .build())
-        .withSpawnEntityDamage(75f)
+        .withSpawnEntityDamage(65f)
         .withSpawnEntityGravityVelocity(0f)
         
          
