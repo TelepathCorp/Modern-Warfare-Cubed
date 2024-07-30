@@ -23,7 +23,7 @@ public class TaurusRagingHunterFactory implements GunFactory {
 
         .withName("taurus_raging_hunter")
         .withAmmoCapacity(6)
-        .withFireRate(0.15f)
+        .withFireRate(0.25f)
         .withRecoil(15f)
         .withZoom(0.9f)
         .withConfigGroup(GunConfigurationGroup.REVOLVER)
