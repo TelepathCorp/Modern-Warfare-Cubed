@@ -1670,10 +1670,10 @@ public class M32MGLFactory implements GunFactory {
                     }, 250, 1000))
                     
             .build())
-            .withSpawnEntityDamage(70f)
+            .withSpawnEntityDamage(40f)
             .withSpawnEntityGravityVelocity(0.3f)
             .withSpawnEntitySpeed(5f)
-            .withSpawnEntityExplosionRadius(3f)
+            .withSpawnEntityExplosionRadius(4f)
             .build(MWC.modContext);
         }
     }
