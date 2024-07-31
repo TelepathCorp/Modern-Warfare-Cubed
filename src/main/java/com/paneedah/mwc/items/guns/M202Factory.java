@@ -672,7 +672,7 @@ public class M202Factory implements GunFactory {
                     )
                     
             .build())
-            .withSpawnEntityDamage(70f)
+            .withSpawnEntityDamage(50f)
             .withSpawnEntityRocketParticles()
             .withSpawnEntitySpeed(10f)
             .withSpawnEntityGravityVelocity(0.001f)
