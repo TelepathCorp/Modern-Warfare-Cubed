@@ -1023,7 +1023,7 @@ public class HK417Factory implements GunFactory {
                    }, 250, 0))
                    
            .build())
-		.withSpawnEntityDamage(28f)
+		.withSpawnEntityDamage(26f)
 		.withSpawnEntityGravityVelocity(0.0118f)
 				
 		 
