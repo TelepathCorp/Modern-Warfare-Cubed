@@ -30,6 +30,7 @@ public class M249Factory {
         .withMaxShots(Integer.MAX_VALUE)
         //.withMaxShots(5)
         .withShootSound("m249")
+        .withShootSoundVolume(0.5f)
         .withSilencedShootSound("ak15_silenced")
         .withReloadSound("mg42_reload")
         .withUnloadSound("mg42_unload")
@@ -563,7 +564,7 @@ public class M249Factory {
                  })
              
             .build())
-        .withSpawnEntityDamage(18f)
+        .withSpawnEntityDamage(16.5f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
         .build(MWC.modContext);

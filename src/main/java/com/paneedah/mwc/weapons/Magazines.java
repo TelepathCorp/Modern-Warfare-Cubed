@@ -333,7 +333,7 @@ public class Magazines {
                 .withTextureName("Dummy.png").build(MWC.modContext, ItemMagazine.class);
         
         Magazines.NGSWRMag = new ItemMagazine.Builder()
-        		.withCapacity(20)
+        		.withCapacity(40)
         		.withCompatibleBullet(Bullets.Bullet65)
         		.withName("NGSWR_Mag")
         		.withRotationPoint(-0.16000000476837162, -0.44000001311302195, -1.4800000441074375)
@@ -581,7 +581,7 @@ public class Magazines {
                 .withTextureName("Dummy.png").build(MWC.modContext, ItemMagazine.class);
         
         Magazines.HoneyBadgerMag = new ItemMagazine.Builder()
-        		.withCapacity(30)
+        		.withCapacity(50)
         		.withCompatibleBullet(Bullets.Bullet762x35)
         		.withName("HoneyBadgerMag_2")
         		.withRotationPoint(-0.16000000476837162, -0.16000000476837162, -1.5200000452995304)
