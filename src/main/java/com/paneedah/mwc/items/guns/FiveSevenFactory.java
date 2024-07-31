@@ -407,7 +407,7 @@ public class FiveSevenFactory implements GunFactory {
                     }, 250, 0))
                           
             .build())
-        .withSpawnEntityDamage(15f)
+        .withSpawnEntityDamage(16f)
         .withSpawnEntityGravityVelocity(0.02f)
         
          
