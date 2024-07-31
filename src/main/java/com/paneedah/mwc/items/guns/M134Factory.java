@@ -1017,7 +1017,7 @@ public class M134Factory implements GunFactory {
                     )
                     
             .build())
-        .withSpawnEntityDamage(17f)
+        .withSpawnEntityDamage(20f)
         .withSpawnEntityGravityVelocity(0.0118f)
                 
          
